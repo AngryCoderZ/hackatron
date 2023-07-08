@@ -6,7 +6,7 @@ interface props{
 }
 const Layout:FC<props> = ({children}) => {
   return (
-    <div className='w-[85%] mx-auto p-3'>
+    <div className='w-[85%] mx-auto p-3 space-y-20'>
         <Navbar1/>
         {children}
     </div>
